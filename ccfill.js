@@ -21,8 +21,11 @@
 	
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
-			alert("Yoyoyo");
-			
+			$('#id_payment_card_number').text("5555555555554444");
+			$('#id_payment_card_cvv2').text("123");
+			$('.add-credit-card-simple-zipcode').text("12345");
+			$('#id_payment_card_year').val('2020');
+			$('#id_payment_card_month').val('02');
 		})();
 	}
 
