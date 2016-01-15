@@ -21,9 +21,9 @@
 	
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
-			$j('#id_payment_card_number').text("5555555555554444");
-			$j('#id_payment_card_cvv2').text("123");
-			$j('.add-credit-card-simple-zipcode').text("12345");
+			$j('#id_payment_card_number').val("5555555555554444");
+			$j('#id_payment_card_cvv2').val("123");
+			$j('.add-credit-card-simple-zipcode').val("12345");
 			$j('#id_payment_card_year').val('2020');
 			$j('#id_payment_card_month').val('02');
 		})();
